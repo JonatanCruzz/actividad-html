@@ -1,0 +1,87 @@
+/* Resetear márgenes y paddings por defecto */
+body,
+h1,
+h2,
+h3,
+ul,
+li {
+    margin: 1;
+    padding: 1;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Estilo para el encabezado */
+header {
+    background-color: #f8f8f8;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilo para los artículos */
+article {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+
+/* Estilo para los títulos de sección */
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+/* Estilo para las secciones */
+section {
+    background-color: #f8f8f8;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ccc;
+}
+
+/* Estilo para los párrafos */
+p {
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+/* Estilo para párrafos personalizados */
+.titulos-info {
+    color: rgb(0, 108, 29);
+    font-weight: bold;
+}
+
+/* Estilo para tablas personalizadas */
+.tablas-info {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #ddd;
+    margin-top: 20px;
+}
+
+/* Estilo para las celdas de datos */
+.tablas-info td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Estilo para alternar colores de filas */
+.tablas-info tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Estilo para listas personalizadas */
+.colored-text {
+    color: rgb(0, 108, 29);
+}
+
+.link-inicio-personalizado {
+    text-align: right;
+    display: block;
+    margin-top: 20px;
+    scroll-behavior: smooth;
+}
